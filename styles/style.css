@@ -1,0 +1,45 @@
+/* common features */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+
+}
+
+.primary-text{
+    color: #FD6E0A;
+}
+
+.nav-header{
+    color:#181818;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.primary-button{
+    background-color: #FD6E0A;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 10px 26px;
+    border: 0;
+}
